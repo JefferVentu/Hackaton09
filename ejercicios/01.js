@@ -1,8 +1,13 @@
-export function Programa01(){
-  const contrasena = prompt('Ingrese la contraseña valida: ');
+function contrasenaValida(){
   if (contrasena === "2Fj(jjbFsuj" || contrasena === "eoZiugBf&g9") {
-      return alert(true)
+      return true
   }
-  return alert(false)
+  return false
 }
 
+export function Programa01(){
+  const contrasena = prompt('Ingrese la contraseña valida: ');
+  const ex1InputConstrasena =  contrasena
+  const result = contrasenaValida(ex1InputConstrasena.value)
+  alert(result)
+}
