@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Hackaton09</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!--<h1 class="card-title">Preguntas y respuestas</h1>-->
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>1. Contraseña válida</h2>
+                <p>Escribir una función llamada contrasenaValida que reciba un string y retorne true si el string es igual a "2Fj(jjbFsuj" o "eoZiugBf&g9". De lo contrario debe retornar false.</p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>2. Calcular impuestos</h2>
+                <p>Escribir una función llamada calcularImpuestos que reciba dos argumentos numéricos: edad e ingresos. Si edad es igual o mayor a 18 y los ingresos son iguales o mayores a 1000 debe retornar ingresos * 40%. De lo contrario retornar 0.</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>3. IMC (Índice de masa corporal)</h2>
+                <p>El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la cantidad de grasa de una persona.
+                    El BMI se calcula con la siguiente fórmula: peso / altura^2
+                    Escribir una función llamada bmi que reciba dos argumentos: peso y altura, y retorne un string con las siguientes posibilidades:
+                    "Bajo de peso" si el BMI < 18.5
+                    "Normal" si está entre 18.5 y 24.9
+                    "Sobrepeso" si está entre 25 y 29.9
+                    "Obeso" si es igual o mayor a 30
+                </p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>4. Imprimir un arreglo</h2>
+                <p>Escribir una función llamada imprimirArreglo que reciba un arreglo e imprima cada elemento en una línea a parte:</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>5. Número de Likes</h2>
+                <p>Escribe una función llamada likes que reciba un número y retorne un string utilizando el formato de K para miles y M para millones.
+                    Por ejemplo:
+                    1400 se convierte en 1K
+                    34,567 se convierte en 34K
+                    7’456,345 se convierte en 7M.
+                    Si el número es menor a 1000 se debe devolver el mismo número como un string.
+                </p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>6. FizzBuzz</h2>
+                <p>Escribir una función llamada fizzBuzz que reciba un número y retorne un string de acuerdo a lo siguiente:
+                    "fizz" si el número es múltiplo de 3.
+                    "buzz" si el número es múltiplo de 5.
+                    "fizzbuzz" si el número es múltiplo tanto de 3 como de 5.
+                    Si no cumple ninguna de las condiciones anteriores debe retornar el mismo número.
+                </p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>7. Contar rango de números</h2>
+                <p>Escribir una función llamada contarRango que reciba dos números y retorne cuántos números que hay entre ellos (excluyéndolos):
+                    Nota: Utiliza un ciclo en tu solución. Puedes asumir que el primer número va a ser menor que el segundo.                    
+                </p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>4. Imprimir un arreglo</h2>
+                <p>Escribir una función llamada imprimirArreglo que reciba un arreglo e imprima cada elemento en una línea a parte:</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>1. Contraseña válida</h2>
+                <p>Escribir una función llamada contrasenaValida que reciba un string y retorne true si el string es igual a "2Fj(jjbFsuj" o "eoZiugBf&g9". De lo contrario debe retornar false.</p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>2. Calcular impuestos</h2>
+                <p>Escribir una función llamada calcularImpuestos que reciba dos argumentos numéricos: edad e ingresos. Si edad es igual o mayor a 18 y los ingresos son iguales o mayores a 1000 debe retornar ingresos * 40%. De lo contrario retornar 0.</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>3. IMC (Índice de masa corporal)</h2>
+                <p>El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la cantidad de grasa de una persona.
+                    El BMI se calcula con la siguiente fórmula: peso / altura^2
+                    Escribir una función llamada bmi que reciba dos argumentos: peso y altura, y retorne un string con las siguientes posibilidades:
+                    "Bajo de peso" si el BMI < 18.5
+                    "Normal" si está entre 18.5 y 24.9
+                    "Sobrepeso" si está entre 25 y 29.9
+                    "Obeso" si es igual o mayor a 30
+                </p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>4. Imprimir un arreglo</h2>
+                <p>Escribir una función llamada imprimirArreglo que reciba un arreglo e imprima cada elemento en una línea a parte:</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>1. Contraseña válida</h2>
+                <p>Escribir una función llamada contrasenaValida que reciba un string y retorne true si el string es igual a "2Fj(jjbFsuj" o "eoZiugBf&g9". De lo contrario debe retornar false.</p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>2. Calcular impuestos</h2>
+                <p>Escribir una función llamada calcularImpuestos que reciba dos argumentos numéricos: edad e ingresos. Si edad es igual o mayor a 18 y los ingresos son iguales o mayores a 1000 debe retornar ingresos * 40%. De lo contrario retornar 0.</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>3. IMC (Índice de masa corporal)</h2>
+                <p>El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la cantidad de grasa de una persona.
+                    El BMI se calcula con la siguiente fórmula: peso / altura^2
+                    Escribir una función llamada bmi que reciba dos argumentos: peso y altura, y retorne un string con las siguientes posibilidades:
+                    "Bajo de peso" si el BMI < 18.5
+                    "Normal" si está entre 18.5 y 24.9
+                    "Sobrepeso" si está entre 25 y 29.9
+                    "Obeso" si es igual o mayor a 30
+                </p>
+                <button id="btnModal">Ejecutar</button>
+            </div>
+            <div class="col my-5 col-sm-4 col-md-4 col-lg-4">
+                <h2>4. Imprimir un arreglo</h2>
+                <p>Escribir una función llamada imprimirArreglo que reciba un arreglo e imprima cada elemento en una línea a parte:</p>
+                <p>sumOfCubes(1, 5, 9)→855</p>
+                <button>Ejecutar</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+</html>
