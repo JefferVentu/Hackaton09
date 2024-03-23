@@ -8,3 +8,44 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.modal-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    height: auto;
+  }
+  
+  .modal-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .modal-close {
+    float: right;
+    background-color: #ccc;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  h3{
+    color: black;
+  }
+  
+  .modalcontenido{
+    color: #242424;
+  }
